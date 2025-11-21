@@ -8,7 +8,10 @@ def average(a: float, b: float) -> float:
     Calculate the average of two numbers.
     Returns (a + b) / 2
     """
-    return (a + b) / 2
+    try:
+        return (a + b) / 2
+    except TypeError:
+        raise ValueError("Both arguments must be numbers.")
 
 # ----------- WebSocket Handler -----------
 async def handle_connection(websocket, path):
@@ -40,4 +43,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
