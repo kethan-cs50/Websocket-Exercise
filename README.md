@@ -2,7 +2,7 @@
 
 This repository contains a simple Python WebSocket server and client built for the **Synapse Coding Exercise**.
 
-**Original assignment (reference):** `/mnt/data/Coding Exercise @ Synapse.pdf`
+**Original assignment (reference):** `Coding Exercise @ Synapse.pdf`
 
 ---
 
