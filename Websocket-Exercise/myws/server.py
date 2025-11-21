@@ -9,8 +9,11 @@ def average(a: float, b: float) -> float:
     Returns (a + b) / 2
     """
     try:
+        
         return (a + b) / 2
+        
     except TypeError:
+        
         raise ValueError("Both arguments must be numbers.")
 
 # ----------- WebSocket Handler -----------
